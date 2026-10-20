@@ -50,7 +50,7 @@ This template is the control plane for those resources. Your app manages users a
 
 | Variable                | Required | Description                                                 |
 | ----------------------- | -------- | ----------------------------------------------------------- |
-| `CHATBOTKIT_API_SECRET` | Yes      | ChatBotKit API token from https://chatbotkit.com/tokens     |
+| `CHATBOTKIT_API_TOKEN` | Yes      | ChatBotKit API token from https://chatbotkit.com/tokens     |
 | `CHATBOTKIT_API_URL`    | No       | ChatBotKit public API base for Slack webhook URLs           |
 | `NEXTAUTH_SECRET`       | Yes      | Random secret for NextAuth JWT encryption                   |
 | `NEXTAUTH_URL`          | Yes      | Your app URL, such as `http://localhost:3000`               |
@@ -68,7 +68,7 @@ This template is the control plane for those resources. Your app manages users a
 
 1. Sign up or log in at [chatbotkit.com](https://chatbotkit.com)
 2. Create an API token at [chatbotkit.com/tokens](https://chatbotkit.com/tokens)
-3. Copy the API token to `CHATBOTKIT_API_SECRET`
+3. Copy the API token to `CHATBOTKIT_API_TOKEN`
 
 No pre-configured bots are needed. The app creates blueprints, bots, skillsets, abilities, and Slack integrations dynamically.
 

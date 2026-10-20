@@ -71,7 +71,7 @@ export async function createAgent({
 
   await cbk.skillset.ability.create(skillset.id, {
     blueprintId: companyId,
-    botId: bot.id,
+    linkedBotId: bot.id,
     name: triageTool.name,
     description: triageTool.description,
     instruction: triageTool.buildInstruction(),

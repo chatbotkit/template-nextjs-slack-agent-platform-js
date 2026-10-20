@@ -122,7 +122,7 @@ export async function createAgentTool({
 
   const ability = await cbk.skillset.ability.create(skillsetId, {
     blueprintId: agent.blueprintId,
-    botId: agent.id,
+    linkedBotId: agent.id,
     name: toolName,
     description: toolDescription,
     instruction: toolInstruction,
